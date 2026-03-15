@@ -1,13 +1,29 @@
-# Wireshark TLS Encryption Analysis
+# Wireshark TLS Encryption Traffic Analysis
 
-This project analyzes TLS handshake packets captured using Wireshark.
+## Overview
 
-## Topics Covered
-- TCP 3-way handshake
-- TLS Client Hello
-- TLS Server Hello
-- Certificate inspection
-- Encrypted traffic analysis
+This project analyzes encrypted network traffic using Wireshark. The goal is to understand how secure HTTPS communication is established through the TLS handshake process.
+
+During the packet capture, several network protocols were observed including DNS, TCP, and TLS. The analysis focuses on how a client and server establish a secure connection before exchanging encrypted data.
+
+## Tools Used
+
+* Wireshark
+* Web Browser
+* Windows Operating System
+
+## Key Analysis
+
+The captured traffic demonstrates the following network activities:
+
+* DNS queries used to resolve domain names into IP addresses
+* TCP three-way handshake used to establish a connection
+* TLS handshake including Client Hello, Server Hello, and certificate exchange
+* Encrypted application data after the TLS session is established
+
+## Conclusion
+
+This project demonstrates how modern web communication uses TLS encryption to protect data between clients and servers. By analyzing the packet capture in Wireshark, it is possible to observe the handshake process that enables secure HTTPS connections.
 
 
 ## DNS Query
