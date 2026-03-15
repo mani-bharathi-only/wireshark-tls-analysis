@@ -33,6 +33,14 @@ DNS resolves a domain name into an IP address.
 
 ---
 
+## TCP HANDSHAKE
+
+The following screenshot shows the TCP handshake packets observed during the network capture.
+
+![TCP Handshake](Screenshots/tcp_handshake.png)
+
+---
+
 ## TLS Client Hello
 
 The client starts the TLS handshake by sending supported encryption methods.
