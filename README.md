@@ -1,2 +1,10 @@
-# wireshark-tls-analysis
-Wireshark project analyzing TLS encrypted network traffic including TLS handshake, certificate exchange, and HTTPS communication.
+# Wireshark TLS Encryption Analysis
+
+This project analyzes TLS handshake packets captured using Wireshark.
+
+## Topics Covered
+- TCP 3-way handshake
+- TLS Client Hello
+- TLS Server Hello
+- Certificate inspection
+- Encrypted traffic analysis
