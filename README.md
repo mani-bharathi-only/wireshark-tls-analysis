@@ -35,7 +35,7 @@ DNS resolves a domain name into an IP address.
 
 ## TCP HANDSHAKE
 
-The following screenshot shows the TCP handshake packets observed during the network capture.
+TCP 3-Way Handshake establishes a reliable connection between a client and a server using SYN, SYN-ACK, and ACK packets before data transfer begins.
 
 ![TCP Handshake](Screenshots/tcp_handshake.png)
 
